@@ -9,6 +9,7 @@ int precedence(char c) {
     if (c == '+' || c == '-') return 1;
     if (c == '*' || c == '/') return 2;
     return 0;
+    
 }
 
 /* Push to stack */
